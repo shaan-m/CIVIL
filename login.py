@@ -79,7 +79,8 @@ def generate_images(bhk, b1, b2, l, k, ba):
             draw2(imagee)
         else:
             draw3(imageee)    
-    
+    else:
+        messagebox.showinfo("Generation error","Unable to generate image!");
 def login():
     username = username_entry.get()
     password = password_entry.get()
